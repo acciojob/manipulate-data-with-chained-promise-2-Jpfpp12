@@ -21,7 +21,5 @@
       }, 2000);
     });
   }
-
-  // Chaining the flow
   evenOut()
     .then(result => multiplyBy2(result));
